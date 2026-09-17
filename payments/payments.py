@@ -1,4 +1,7 @@
-print("Welcome to payments")
+import  logging
+
+logger = logging.getLogger(__name__)
+
 def payments():
-    print("Welcome to payments method")
-    print("seelct payment mode")
+    logger.info("Welcome to payments method")
+    logger.info("Payments started")
