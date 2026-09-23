@@ -1,4 +1,6 @@
-print("Welcome to login, Im inside login")
+import logging
+logger = logging.getLogger(__name__)
+logger.debug("Welcome to login, Im inside login")
 actual_password = "Admin@123"
 def login():
     username = input("Enter your username: ")
