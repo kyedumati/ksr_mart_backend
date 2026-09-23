@@ -1,7 +1,7 @@
 print("Im inside login page")
-
+actual_password = "Admin@123"
 def login():
     username = input("Enter your username: ")
     password = input("Enter your password: ")
-    if username == "admin" and password == "Admin@123":
+    if username == "admin" and password == actual_password:
         print("login successful")
