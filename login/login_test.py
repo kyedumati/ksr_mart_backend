@@ -1,4 +1,4 @@
-print("Im inside login page")
+print("Welcome to login, Im inside login")
 actual_password = "Admin@123"
 def login():
     username = input("Enter your username: ")
